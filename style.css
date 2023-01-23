@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #19db63f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* margin:10px; */
+  flex-wrap: wrap;
+}
+.formInp{
+  margin:15px;
+  font-size: 23px;
+  padding: 5px;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+}
+#btn {
+  padding: 5px 17px;
+  cursor: pointer;
+}
+
+
+#cardBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(255 236 51);
+  width: 315px;
+  height: 196px;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.card ul li {
+  list-style-type: none;
+}
+
+.cardText {
+  text-align: center;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.btnBox {
+  display: flex;
+  position: absolute;
+  right: 28px;
+  top: 22px;
+  border: none;
+  
+}
+
+.btnSm {
+  background: none;
+  border: none;
+  cursor:pointer;
+}
+
+.btnSm i {
+  background: none;
+  border: none;
+  width: 40%;
+  height: 40%;
+}
+
+/* .editBtn, .deleteBtn {
+  background: none;
+  position: absolute;
+  right: 35px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+} */
+
+/*#deleteBtn {
+  right: 10px;
+} */
