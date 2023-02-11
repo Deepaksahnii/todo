@@ -1,4 +1,4 @@
-# todo
+# Todo App
 A Todo app for organizing your tasks in day2day life.
 
 You can preview this here...
